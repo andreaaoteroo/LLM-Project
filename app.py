@@ -135,11 +135,11 @@ with col2:
 st.markdown("---")
 
 # ── Load API key ──────────────────────────────────────────────────────────────
-api_key = st.secrets["OPENAI_API_KEY"]
 
 # ── Load RAG pipeline (cached so it only runs once) ───────────────────────────
 @st.cache_resource
 def load_rag_pipeline():
+    api_key = st.secrets["OPENAI_API_KEY"]
     loader  = PyPDFLoader("TravelPolicy.pdf")
     loader2 = PyPDFLoader("PcardPolicy.pdf")
 
