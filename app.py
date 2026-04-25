@@ -238,7 +238,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
     st.session_state.messages.append({
         "role": "assistant",
-        "content": "👋 Hi! I'm **IbisIQ**, your University of Miami policy assistant. Ask me anything about UM travel, expense reimbursement, or Pcard policies."
+        "content": "Hi! I'm **IbisIQ**, your University of Miami policy assistant. Ask me anything about UM travel, expense reimbursement, or Pcard policies."
     })
 
 # Display chat history
