@@ -243,7 +243,7 @@ if "messages" not in st.session_state:
 
 # Display chat history
 for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
+    with st.chat_message(message["role"], avatar="🌴" if message["role"] == "assistant" else None):
         st.markdown(message["content"])
 
 # Handle suggestion prefill
@@ -259,10 +259,10 @@ if user_input:
         st.markdown(user_input)
 
     # Get and show assistant response
-    with st.chat_message("assistant"):
-        with st.spinner("Checking policy documents..."):
-            response = RAG_final(user_input)
-        st.markdown(response)
+   with st.chat_message("assistant", avatar="🌴"):
+    with st.spinner("Checking policy documents..."):
+        response = RAG_final(user_input)
+    st.markdown(response)
 
     st.session_state.messages.append({"role": "assistant", "content": response})
 
