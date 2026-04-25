@@ -37,16 +37,16 @@ html, body, [class*="css"] {
     box-shadow: 0 4px 20px rgba(0,80,48,0.18);
 }
 .ibis-title {
-    font-family: 'Merriweather', serif;
-    font-size: 2rem;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 3rem;
     font-weight: 700;
-    color: #F47321;
+    color: #f47321;
     margin: 0;
     letter-spacing: -0.5px;
 }
 .ibis-subtitle {
-    font-size: 0.9rem;
-    color: #c8e6c9;
+    font-size: 1.3rem;
+    color: #005030;
     margin: 4px 0 0 0;
 }
 
