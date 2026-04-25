@@ -38,7 +38,7 @@ html, body, [class*="css"] {
 }
 .ibis-title {
     font-family: 'Source Sans 3', sans-serif;
-    font-size: 3rem;
+    font-size: 3rem !important;
     font-weight: 700;
     color: #f47321;
     margin: 0;
