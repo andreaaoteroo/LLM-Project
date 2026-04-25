@@ -7,7 +7,7 @@ from openai import OpenAI
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="CaneComply – UM Policy Assistant",
+    page_title="CanesComply – UM Policy Assistant",
     layout="centered"
 )
 
