@@ -122,14 +122,10 @@ hr {
 # ── Header ────────────────────────────────────────────────────────────────────
 col1, col2 = st.columns([1, 4])
 with col1:
-    st.markdown("""
-    <div style="display:flex; align-items:center; height:100%; padding-top:20px;">
-        <img src="app/static/Miami_Hurricanes_logo.svg.png" width="90"/>
-    </div>
-    """, unsafe_allow_html=True)
+    st.image("Miami_Hurricanes_logo.svg.png", width=110)
 with col2:
     st.markdown("""
-    <div style="display:flex; flex-direction:column; justify-content:center; padding-top:10px;">
+    <div style="padding-top:8px">
         <p class="ibis-title">IbisIQ</p>
         <p class="ibis-subtitle">University of Miami · Policy Assistant</p>
     </div>
