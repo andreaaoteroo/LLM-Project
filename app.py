@@ -260,8 +260,8 @@ if user_input:
 
     # Get and show assistant response
    with st.chat_message("assistant", avatar="🌴"):
-    with st.spinner("Checking policy documents..."):
-        response = RAG_final(user_input)
+       with st.spinner("Checking policy documents..."):
+           response = RAG_final(user_input)
     st.markdown(response)
 
     st.session_state.messages.append({"role": "assistant", "content": response})
