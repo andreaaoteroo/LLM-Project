@@ -8,7 +8,6 @@ from openai import OpenAI
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="IbisIQ – UM Policy Assistant",
-    page_icon="🦢",
     layout="centered"
 )
 
@@ -127,8 +126,8 @@ with col1:
 with col2:
     st.markdown("""
     <div style="padding-top:8px">
-        <p class="ibis-title">🦢 IbisIQ</p>
-        <p class="ibis-subtitle">University of Miami · Policy Assistant for Approvers</p>
+        <p class="ibis-title">IbisIQ</p>
+        <p class="ibis-subtitle">University of Miami · Policy Assistant</p>
     </div>
     """, unsafe_allow_html=True)
 
