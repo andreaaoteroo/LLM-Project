@@ -190,10 +190,10 @@ def build_reasoning_prompt(query, chroma_results):
     You are a Policy Compliance Officer. Use the provided context to answer the query.
 
     STRICT REQUIREMENTS:
-    Explain 'why' something is allowed or denied based on the rules.
-    You must cite the [Source ID] for every specific rule mentioned.
-    Paraphrase the policy into actionable advice.
-    If the source doesn't cover a specific detail, explicitly state that.
+    1. REASONING: Explain 'why' something is allowed or denied based on the rules.
+    2. CITATION: You must cite the [Source ID] for every specific rule mentioned.
+    3. NO QUOTING: Paraphrase the policy into actionable advice.
+    4. UNCERTAINTY: If the source doesn't cover a specific detail, explicitly state that.
 
     CONTEXT FROM UNIVERSITY POLICY:
     {context_str}
