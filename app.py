@@ -7,7 +7,7 @@ from openai import OpenAI
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="IbisIQ – UM Policy Assistant",
+    page_title="CaneComply – UM Policy Assistant",
     layout="centered"
 )
 
@@ -126,7 +126,7 @@ with col1:
 with col2:
     st.markdown("""
     <div style="margin-top:-20px;">
-        <p class="ibis-title">IbisIQ</p>
+        <p class="ibis-title">CanesComply</p>
         <p class="ibis-subtitle">University of Miami · Policy Assistant</p>
     </div>
     """, unsafe_allow_html=True)
@@ -237,7 +237,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
     st.session_state.messages.append({
         "role": "assistant",
-        "content": "Hi! I'm **IbisIQ**, your University of Miami policy assistant. Ask me anything about UM travel, expense reimbursement, or Pcard policies."
+        "content": "Hi! I'm **CanesComply**, your University of Miami policy assistant. Ask me anything about UM travel, expense reimbursement, or Pcard policies."
     })
 
 # Display chat history
@@ -268,6 +268,6 @@ if user_input:
 # ── Footer ────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="ibis-footer">
-    IbisIQ · University of Miami · Answers are based on official UM policy documents and are for guidance only.
+    CanesComply · University of Miami · Answers are based on official UM policy documents and are for guidance only.
 </div>
 """, unsafe_allow_html=True)
