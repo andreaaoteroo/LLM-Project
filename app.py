@@ -122,7 +122,7 @@ hr {
 # ── Header ────────────────────────────────────────────────────────────────────
 col1, col2 = st.columns([1, 4])
 with col1:
-    st.image("university-of-miami-logo-vector.png", width=110)
+    st.image("Miami_Hurricanes_logo.svg.png", width=110)
 with col2:
     st.markdown("""
     <div style="padding-top:8px">
