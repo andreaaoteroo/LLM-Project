@@ -116,6 +116,15 @@ hr {
     padding-top: 12px;
     border-top: 1px solid #ddd;
 }
+
+/* Chat input container background */
+[data-testid="stBottomBlockContainer"] {
+    background-color: ##f7f5f2 !important;
+}
+
+section[data-testid="stBottom"] {
+    background-color: ##f7f5f2 !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
