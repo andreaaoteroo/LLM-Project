@@ -125,7 +125,7 @@ with col1:
     st.image("Miami_Hurricanes_logo.svg.png", width=110)
 with col2:
     st.markdown("""
-    <div style="padding-top:-30px;">
+    <div style="margin-top:-30px;">
         <p class="ibis-title">IbisIQ</p>
         <p class="ibis-subtitle">University of Miami · Policy Assistant</p>
     </div>
