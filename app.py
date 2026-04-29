@@ -167,7 +167,7 @@ def prompt_function(prompt: str) -> str:
         model="gpt-4.1",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.2,
-        max_tokens=1024,
+        max_tokens=2048,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0
